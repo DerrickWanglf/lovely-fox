@@ -2,6 +2,6 @@
 Html + css 
 
 ## Demo
-[Demo Link](https://DerrickWanglf.github.io/lwebarebear_demo/)
+[Demo Link](https://DerrickWanglf.github.io/webarebear_demo/)
 
 
