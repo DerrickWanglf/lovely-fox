@@ -56,8 +56,7 @@ let id
         }
     })
 
-    let code = `
-    *, *:after, *:before{
+    let code = `*, *:after, *:before{
   box-sizing:border-box;
   margin:0;
   padding:0;
@@ -240,7 +239,6 @@ a.author{
   50% {
     height: 1px;
   }
-}
-`
+}`
     writeCode('', code)
 }.call()

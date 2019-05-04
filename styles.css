@@ -20,10 +20,10 @@ body {
 
 .code-wrapper {
     flex-grow: 1;
-    height: 50%;
+    height: 50vh;
     padding: 10px;
     border-bottom: 1px solid #594A41;
-    
+    background:#202A2E;
 }
 
 .preview-wrapper {
@@ -33,7 +33,13 @@ body {
 
 #code {
     overflow: hidden;
-    height: 100%;;
+    height: 100%;
+    color: #11E729;
+}
+
+.container {
+    position: relative;
+    height: 50vh;
 }
 
 .actions {
