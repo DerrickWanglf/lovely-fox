@@ -1,7 +1,7 @@
 let id
 
 !function () {
-    let duration = 0
+    let duration = 1
 
     function writeCode(prefix, code, fn) {
         let container = document.querySelector('#code')
@@ -21,7 +21,7 @@ let id
             } else {
                 fn && fn.call()
             }
-        }, 0)
+        }, 1)
     }
 
     $('.actions').on('click', 'button', function (event) {
@@ -42,7 +42,7 @@ let id
                 duratoin = 10
                 break
             case 'fast':
-                duration = 5
+                duration = 1
                 break
             case 'skip':
                 // Stop typing
